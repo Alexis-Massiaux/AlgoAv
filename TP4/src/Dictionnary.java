@@ -71,7 +71,8 @@ public class Dictionnary implements BidirectionnalMap{
 	public static void main(String[] args){
 		Dictionnary dico = new Dictionnary();
 		dico.put("anywhere", "nulle part");
-		System.out.println(dico.toString());
+		//System.out.println(dico.toString());
+		//System.out.println(dico.getFromPrimary(args[0]));
 		System.out.println(dico.getFromSecondary("nulle part"));
 	}
 
